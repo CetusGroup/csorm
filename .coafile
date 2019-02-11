@@ -1,0 +1,11 @@
+[all]
+bears = SpaceConsistencyBear
+files = *.py
+use_spaces = True
+
+[Makefiles]
+bears = LineLengthBear
+files = Makefile
+
+[all.TODOS]
+bears = KeywordBear
